@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/BusquedaVuelos.css" rel="stylesheet" media="all" type="text/css">
+        <title>TravelDipia</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <img src="../img/Imagen1.png" class="imgLogo">
+            </header>
+                <div class="nav">
+                    <a href=""><input type="button" class="buttonNav" value="Inicio"></a>
+                    <a href=""><input type="button" class="buttonNav" value="Adri"></a>
+                    <a href=""><input type="button" class="buttonNav" value="Sergio"></a>
+                    <a href=""><input type="button" class="buttonNav" value="Iker"></a>
+                    <a href=""><input type="button" class="buttonNav" value="Actividades"></a>
+                    <a href=""><input type="button" class="buttonNav6" value="Vuelos Destacados"></a>
+                </div>
+                <div class="contenido">
+                    <div class="subContenidoFlex">
+                        <form> 
+                           
+            
+                                <p id="P1"> Reservar un Vuelo </p>                                   
+                                
+                                <hr id="hr" size="2px" color="black" width="100%" />    
+
+                                <div id="P2">
+            
+                                    <p>¿Dónde y cuándo?</p>
+            
+                                    
+                                </div>
+                                
+                                <div>
+                                    <p>
+                                       
+                                        <input type="radio" name="idayvu">
+                                        <label>Solo Ida</label>
+            
+                                        <input type="radio" name="idayvu">
+                                        <label>Ida y vuelta</label>
+                    
+                                        <input type="radio" name="idayvu">
+                                        <label>Múltiples destinos</label>
+                                    </p>
+            
+                                </div>
+                
+                                <div>
+                                    
+                                    <input type="text" id="ida" placeholder="Aeropuerto salida" required> 
+                                    <input type="date" id="fecha" required>
+                                    <select id= "clases">
+                                        <option id="op1">Clase Turista</option>
+                                        <option>Primera Clase </option>
+                                        <option>Clase Business</option>
+                                    </select>
+                                </div>
+            
+                                <div>
+                                    <input type="text" id="vuelta" placeholder="Aeropuerto llegada" required>
+                                    <input type="date" id="fecha">
+                                    <select id= "clases">
+                                        <option id="op1">Clase Turista</option>
+                                        <option>Primera Clase </option>
+                                        <option>Clase Business</option>
+                                        
+                                    </select>
+            
+                                </div>
+                
+                                <div id="div5">
+                                    <input type="checkbox">
+                                    <label>Solo vuelos directos</label>
+                                </div>
+            
+                                <hr id="hr" size="2px" color="black" width="100%" />
+            
+                                <div id="P2">
+            
+                                    <p>Pasajeros</p>
+            
+                                    
+                                </div>
+            
+                                <div>
+                                    <select id= "pasajeros">
+                                        <option>Adultos: 1</option>
+                                        <option>Adultos: 2</option>
+                                        <option>Adultos: 3</option>
+                                        <option>Adultos: 4</option>
+                                        <option>Adultos: 5</option>
+                                        <option>Adultos: 6</option>
+                                        <option>Adultos: 7</option>
+                                        <option>Adultos: 8</option>
+                                    </select>
+            
+                                    <select id= "pasajeros">
+                                        <option>Niños: 0</option>
+                                        <option>Niños: 1</option>
+                                        <option>Niños: 2</option>
+                                        <option>Niños: 3</option>
+                                        <option>Niños: 4</option>
+                                        <option>Niños: 5</option>
+                                    </select>
+            
+                                    <select id= "pasajeros">
+                                        <option>Bebés: 0</option>
+                                        <option>Bebés: 1</option>
+                                        <option>Bebés: 2</option>
+                                        <option>Bebés: 3</option>
+                                    </select>
+            
+                                </div>
+                                
+                                 <hr id="hr" size="2px" color="black" width="100%" />
+            
+                                 <div id="P2">
+            
+                                    <p>Ofertas promocionales</p>
+                   
+                                </div>
+            
+                                <div>
+                                     <input type="text" id="vuelta" placeholder="Código Promocional">
+                                </div>
+            
+                                <hr id="hr" size="2px" color="black" width="100%" />
+            
+                                <div id="divB">
+                                    <input type="submit" value="Buscar" id="boton">
+                                </div>
+                                
+                                
+                            
+                         </form>
+                    </div>
+                    <div class="subContenido">
+
+                        <div>
+                            <p id="P2">Vuelos Recientes</p>
+                        </div>  
+
+                        <div id="divfotos">
+                            <img src="../img/australia.png" alt="" id="imgS">
+                            <img src="../img/abu dhabi.png" alt="" id="imgS">
+                            <img src="../img/usa.png" alt="" id="imgS">
+
+
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+                    
+                </div>
+            <footer>
+                <a>TravelDipia ©</a>
+            </footer>
+        </main>
+    </body>
+</html>
