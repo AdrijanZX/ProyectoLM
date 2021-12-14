@@ -239,10 +239,20 @@ select
     background-color: white;
     transition: 1s;
 }
-button:hover
+.buttonNav:hover
+{
+    cursor: pointer;
+    background: rgb(12, 13, 56);
+    color: rgb(238, 176, 42);
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.estiloform button:hover
 {
     background-color: var(--cabecera);
     color: white;
+    cursor: pointer;
     transition: 0.5s;
 }
 fieldset:hover
