@@ -67,6 +67,7 @@ div {
     width: 20rem;
     border-radius: 20px;
 }
+
 ul > li
 {
     list-style: none;
@@ -74,7 +75,11 @@ ul > li
 }
 ul > li:first-child
 {
-font-weight: bold;
+    font-weight: bold;
+}
+ul > li:nth-child(5)
+{
+    font-weight: bold;
 }
 
 .imgF {
