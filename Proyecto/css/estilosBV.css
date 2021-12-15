@@ -92,15 +92,17 @@ div {
     width: 200px;
     height: 95%;
     margin-top: 5px;
-}
-.buttonNav {
-    width: auto;
-    height: 25px;
-    background: #0b173d;
-    color: #d1a103;
-    font-size: 15px;
+}.buttonNav {
+    width: 100px;
+    height: 30px;
+    background-color: #71cbfc;
+    color: black;
+    font-size: 14px;
     font-weight: bold;
-    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
 }
 .buttonNav6 {
     width: 150px;
@@ -113,6 +115,12 @@ div {
     margin-bottom: 5px;
     border: none;
     border-radius: 3px;
+}
+.buttonNav:hover{
+    background-color: turquoise;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
 }
 .buttonNav6:hover{
     background-color: turquoise;
@@ -155,11 +163,14 @@ input::placeholder {
 #div5 {
     margin-top: 10px;
 }
-input {
+input[type="text"]{
+    text-align:left;
+}
+input[type="date"]{
     text-align: center;
 }
 select {
-    text-align: center;
+    text-align: left;
 }
 #pasajeros {
     height: 38px;
