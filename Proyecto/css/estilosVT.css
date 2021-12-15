@@ -76,7 +76,10 @@ ul > li:first-child
 {
 font-weight: bold;
 }
-
+ul > li:nth-child(5)
+{
+font-weight:bold;
+}
 .imgF {
     width: 200px;
     height: 250px;
