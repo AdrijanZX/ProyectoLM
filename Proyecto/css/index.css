@@ -106,3 +106,8 @@ div {
     border-radius: 3px;
     transition: 0.4s;
 }
+@media (max-width:667.20px){
+    .subContenidoFlex {
+        flex-direction: column;
+    }
+}
